@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Clinic[Name]s</title>
+    <head>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Dental Clinic [Name]</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+</header>
+
+
+
+
+
+
+
+<!-- Homepage Section -->
+<section id="home" class="home">
+    <div class="hero">
+        <h1 class="fade-in-up">Committed to Your Smile</h1>
+        <p class="fade-in-up delay-1">Delivering Excellence in Dental Care</p>
+        <p>Clinic working hours (Wed - Mon: 10:30 AM - 01:00 PM | 04:00 PM - 08:00 PM)</p>
+        <a href="#contact" class="cta-btn pulse">Book Appointment</a>
+    </div>
+</section>
+
+
+    
+
+
+
+
+
+<!-- About Us Section -->
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+        <div class="doctor-image" data-aos="fade-right">
+            <img src="/image/dental.jpg" alt="Dr. John Doe, DDS">
+        </div>
+        <div class="doctor-info" data-aos="fade-left">
+            <h3>Meet Dr. John Doe, DDS</h3>
+            <p>With over 15 years of experience in dental care, Dr. John Doe is dedicated to providing compassionate, expert treatment to all his patients. Graduating with honors from Harvard School of Dental Medicine, Dr. Doe specializes in a wide range of dental services from routine cleanings to advanced restorative procedures.</p>
+            
+            <p>Dr. Doe believes in a patient-centered approach, emphasizing comfort, communication, and education. He ensures every patient understands their treatment options and feels comfortable during their visit.</p>
+            
+            <h4>Services Provided:</h4>
+            <ul class="services-list">
+                <li>Preventive Care (Cleanings, Check-ups, X-Rays)</li>
+                <li>Cosmetic Dentistry (Teeth Whitening, Veneers)</li>
+                <li>Restorative Procedures (Fillings, Crowns, Bridges)</li>
+                <li>Orthodontics (Braces, Clear Aligners)</li>
+                <li>Dental Implants and Surgery</li>
+            </ul>
+            
+            <p>Dr. Doe is committed to using the latest technology and best practices in dentistry to ensure patients receive safe, effective, and comfortable care. His goal is to help every patient achieve a healthy, beautiful smile.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- Services Section -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+        <div class="service-item">
+            <img src="/image/teeth_hite.jfif" alt="Teeth Whitening">
+            <h3>Teeth Whitening</h3>
+            <p>Brighten your smile with our professional teeth whitening services.</p>
+        </div>
+        <div class="service-item">
+            <img src="image/orthodontic-treatment.jpg" alt="Orthodontics">
+            <h3>Orthodontics</h3>
+            <p>Align your teeth for a perfect smile with our orthodontic treatments.</p>
+        </div>
+        <div class="service-item">
+            <img src="image/images (2).jfif" alt="Dental Implants">
+            <h3>Dental Implants</h3>
+            <p>Replace missing teeth and restore your smile with our dental implants.</p>
+        </div>
+        <div class="service-item">
+            <img src="image/Dental-cleaning.jpg" alt="Cleanings">
+            <h3>Cleanings</h3>
+            <p>Keep your teeth healthy and plaque-free with regular cleanings.</p>
+        </div>
+        <div class="service-item">
+            <img src="image/root_canal.jpg" alt="Root Canals">
+            <h3>Root Canals</h3>
+            <p>Save your teeth from infection with our gentle root canal procedures.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+   <!-- Patient Reviews Section -->
+<section id="reviews" class="reviews">
+    <h2>Patient Reviews</h2>
+    <div class="review-carousel">
+        <!-- Original Set of Reviews -->
+        <div class="review-item">
+            <img src="image/men3.jpg" alt="John Doe" class="review-img">
+            <p>"Great service! My smile has never looked better."</p>
+            <h4>– John Doe</h4>
+        </div>
+        <div class="review-item">
+            <img src="image/men1.jfif" alt="Jane Smith" class="review-img">
+            <p>"The staff was so friendly and professional."</p>
+            <h4>– Jane Smith</h4>
+        </div>
+        <div class="review-item">
+            <img src="image/men2.jfif" alt="Alice Johnson" class="review-img">
+            <p>"Amazing experience! Highly recommend this clinic."</p>
+            <h4>– Alice Johnson</h4>
+        </div>
+        <div class="review-item">
+            <img src="image/men4.jpeg" alt="Mark Brown" class="review-img">
+            <p>"They truly care about their patients. Thank you!"</p>
+            <h4>– Mark Brown</h4>
+        </div>
+
+        <!-- Duplicate Set of Reviews for Seamless Looping -->
+        <div class="review-item">
+            <img src="image/free-photo.jpg" alt="John Doe" class="review-img">
+            <p>"Great service! My smile has never looked better."</p>
+            <h4>– John Doe</h4>
+        </div>
+        <div class="review-item">
+            <img src="image/men3.jpg" alt="Jane Smith" class="review-img">
+            <p>"The staff was so friendly and professional."</p>
+            <h4>– Jane Smith</h4>
+        </div>
+        <div class="review-item">
+            <img src="image/istockphoto.jpg" alt="Alice Johnson" class="review-img">
+            <p>"Amazing experience! Highly recommend this clinic."</p>
+            <h4>– Alice Johnson</h4>
+        </div>
+        <div class="review-item">
+            <img src="image/men4.jpeg" alt="Mark Brown" class="review-img">
+            <p>"They truly care about their patients. Thank you!"</p>
+            <h4>– Mark Brown</h4>
+        </div>
+    </div>
+    <a href="https://www.google.com/maps/search/?api=1&query=your_clinic_location" class="google-review-link" target="_blank">See More Reviews on Google</a>
+</section>
+
+
+
+
+
+
+    <!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Fill out the form below, and we'll get in touch soon.</p>
+    
+    <div class="contact-container">
+        <!-- Contact Form -->
+        <form id="contactForm" class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Phone" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <!-- Google Maps Location -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509644!2d144.96315781584466!3d-37.814107942695704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5774b9f11f1ef8c!2sTeethCare%20Multispeciality%20Dental%20Clinic!5e0!3m2!1sen!2sus!4v1601274192957!5m2!1sen!2sus" 
+                width="100%" 
+                height="300" 
+                frameborder="0" 
+                style="border:0;" 
+                allowfullscreen="" 
+                aria-hidden="false" 
+                tabindex="0">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Clinic Information -->
+        <div class="footer-section about">
+            <h4>About TeethCare Dental Clinic</h4>
+            <p>Your smile, our passion. TeethCare Dental Clinic offers a full range of dental services, from preventive care to advanced cosmetic and restorative treatments. We’re dedicated to providing quality care with a personal touch.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#team">Meet Our Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#appointments">Book an Appointment</a></li>
+            </ul>
+        </div>
+
+       <!-- Contact Information -->
+<div class="footer-section contact">
+    <h4>Contact Us</h4>
+    <p><i class="fas fa-map-pin"></i>456 Smile Avenue, Suite 12, Greenfield, CA 93927</p>
+    <p><i class="fas fa-phone-alt"></i>+1 (555) 987-6543</p>
+    <p><i class="fas fa-envelope"></i>info@teethcaredent.com</p>
+</div>
+
+        <!-- Social Media -->
+        <div class="footer-section social">
+            <h4>Follow Us</h4>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 TeethCare Dental Clinic | All rights reserved.</p>
+        <p>Website by <a href="#">YourCompany</a></p>
+    </div>
+</footer>
+
+
+
+
+
+    
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/yourwhatsapplink" class="whatsapp-button" target="_blank">
+    <img src="image/images (1).jfif" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
